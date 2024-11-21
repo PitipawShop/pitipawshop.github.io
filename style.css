@@ -306,6 +306,88 @@ body{
 
 /* end */
 
+/* footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #161616;
+  width: 100%;
+  height: auto;
+}
+
+.footer .teks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 100px;
+  margin: 30px;
+}
+
+.footer .bag1 h1 {
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+.judul img {
+  width: 150px;
+}
+
+.footer .bag1 ul {
+  list-style: none;
+}
+
+.footer .bag1 ul li {
+  margin-top: 10px;
+}
+
+.footer .bag1 ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.footer .bag2 {
+  width: 300px;
+}
+
+.footer .bag2 h1 {
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+.footer .bag2 p {
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+
+.footer .bag3 {
+  width: 300px;
+}
+
+.footer .bag3 .logo5{
+  margin-top: 10px;
+}
+
+.footer .bag3 .logo5 img{
+  width: 30px;
+}
+
+.footer .bag3 h1 {
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+.footer .bag3 p {
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
 
 
 
