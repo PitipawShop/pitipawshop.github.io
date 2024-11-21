@@ -389,6 +389,45 @@ body{
   margin-top: 10px;
 }
 
+.wave svg{
+    margin-top: -14rem;
+}
+
+@media (max-width: 480px) {
+    .container3 .kanan{
+        width: 95%;
+        margin: auto;
+    }
+
+    .wave svg{
+        margin-top: 0;
+    }    
+
+    .text{
+        text-align: justify;
+    }
+
+    .dalam2 hr{
+        display: none;
+    }
+
+    .kontainer1{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .kontainer1 .bag1{
+        margin-top: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .kontainer1 .bag2 img{
+        width: 357px;
+        height: auto;
+    }
+    
+}
 
 
 
