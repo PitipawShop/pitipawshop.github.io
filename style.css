@@ -381,6 +381,24 @@ body {
   width: 30px;
 }
 
+.bag3 {
+    text-align: center; /* Mengatur teks dan konten di dalam .bag3 menjadi rata tengah */
+}
+
+.logo5 {
+    margin: 20px 0; /* Menambahkan jarak vertikal di atas dan bawah div .logo5 */
+}
+
+.logo5 .ig a {
+    display: inline-block; /* Membuat tautan menjadi inline-block agar bisa diatur */
+}
+
+.logo5 .ig img {
+    max-width: 100%; /* Membuat gambar responsif */
+    height: auto; /* Memastikan tinggi gambar otomatis menyesuaikan proporsi */
+    margin: 0 auto; /* Menjaga gambar tetap di tengah jika ada ruang ekstra */
+}
+
 .footer .bag3 h1 {
   font-size: 35px;
   color: white;
