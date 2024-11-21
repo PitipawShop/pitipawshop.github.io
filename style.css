@@ -120,6 +120,57 @@ body{
   width: 400px;
 }
 
+.wave{
+    margin-bottom: -1rem;
+}
+
+/* section1 */
+
+.container2 {
+  width: 100%;
+  background-color: #e679a1;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.container2 .dalam .card img {
+  width: 300px;
+  border-radius: 20px;
+  margin-top: -90px;
+}
+
+.container2 h2 {
+  margin: auto;
+}
+
+.dalam {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 10px;
+  width: 23rem;
+  margin-bottom: 60px;
+}
+
+.card-head {
+  padding: 10%;
+  text-align: center;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+
+.card-text h1 {
+  margin-bottom: 10px;
+}
+
+
 
 
 
