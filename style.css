@@ -69,57 +69,113 @@ body{
 
 /* end nav */
 
-/* konten1 */
 
-.konten1 {
-  margin: 10px 2%;
-}
 
-.kontainer1 {
-  width: 79%;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-}
 
-.kontainer1 .bag1 {
-  width: 400px;
-}
 
-.kontainer1 .bag1 .satu {
-  font-size: 50px;
-}
+/* Basic reset for better consistency across browsers */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #fff;
+  }
+  
+  
+  .logo img {
+    width: 150px;
+    height: auto;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: #444;
+    font-size: 18px;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navbar ul li a:hover {
+    background-color: pink;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e679a1;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f091b4;
+  }
+  
+  @media (max-width: 768px) {
+    .nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar {
+      position: fixed;
+      display: none;
+      width: 100%;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar ul li {
 
-.kontainer1 .bag1 .dua {
-  font-size: 50px;
-  color: #e679a1;
-}
-
-.kontainer1 .bag1 p {
-  margin-top: 10px;
-  margin-bottom: 20px;
-}
-
-.kontainer1 .bag1 a {
-  background-color: #e679a1;
-  color: white;
-  text-decoration: none;
-  margin-top: 20px;
-  padding: 10px 40px;
-  border-radius: 30px;
-}
-
-.kontainer1 .bag2 {
-  justify-content: right;
-}
-
-.kontainer1 .bag2 img {
-  height: 500px;
-  width: 400px;
-}
-
-.wave{
-    margin-bottom: -1rem;
-}
+      width: 100%;
+      text-align: left;
+    }
+  
+    .navbar ul li a {
+      display: block;
+      width: 100%;
+    }
+  
+    .nav .toggle-btn {
+      display: block;
+      background-color: #444;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+      font-size: 18px;
+    }
+  
+    .navbar.active {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .nav .toggle-btn {
+      display: none;
+    }
+  }
+  
