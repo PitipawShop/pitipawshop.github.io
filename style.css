@@ -69,6 +69,56 @@ body{
 
 /* end nav */
 
+/* konten1 */
+
+.konten1 {
+  margin: 10px 2%;
+}
+
+.kontainer1 {
+  width: 79%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.kontainer1 .bag1 {
+  width: 400px;
+}
+
+.kontainer1 .bag1 .satu {
+  font-size: 50px;
+}
+
+.kontainer1 .bag1 .dua {
+  font-size: 50px;
+  color: #e679a1;
+}
+
+.kontainer1 .bag1 p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.kontainer1 .bag1 a {
+  background-color: #e679a1;
+  color: white;
+  text-decoration: none;
+  margin-top: 20px;
+  padding: 10px 40px;
+  border-radius: 30px;
+}
+
+.kontainer1 .bag2 {
+  justify-content: right;
+}
+
+.kontainer1 .bag2 img {
+  height: 500px;
+  width: 400px;
+}
 
 
 
