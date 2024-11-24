@@ -299,7 +299,7 @@ body {
 }
 
 .dalam3 .card h4 {
-  font-size: 30px;
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
@@ -382,21 +382,21 @@ body {
 }
 
 .bag3 {
-    text-align: center; /* Mengatur teks dan konten di dalam .bag3 menjadi rata tengah */
+  text-align: center; /* Mengatur teks dan konten di dalam .bag3 menjadi rata tengah */
 }
 
 .logo5 {
-    margin: 20px 0; /* Menambahkan jarak vertikal di atas dan bawah div .logo5 */
+  margin: 20px 0; /* Menambahkan jarak vertikal di atas dan bawah div .logo5 */
 }
 
 .logo5 .ig a {
-    display: inline-block; /* Membuat tautan menjadi inline-block agar bisa diatur */
+  display: inline-block; /* Membuat tautan menjadi inline-block agar bisa diatur */
 }
 
 .logo5 .ig img {
-    max-width: 100%; /* Membuat gambar responsif */
-    height: auto; /* Memastikan tinggi gambar otomatis menyesuaikan proporsi */
-    margin: 0 auto; /* Menjaga gambar tetap di tengah jika ada ruang ekstra */
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Memastikan tinggi gambar otomatis menyesuaikan proporsi */
+  margin: 0 auto; /* Menjaga gambar tetap di tengah jika ada ruang ekstra */
 }
 
 .footer .bag3 h1 {
@@ -548,39 +548,39 @@ body {
   }
 }
 
-
 /* Media Query untuk perangkat dengan lebar maksimal 768px (tablet dan ponsel) */
 @media (max-width: 768px) {
-    .navbar {
-        flex-direction: column;
-        align-items: center;
-    }
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .bag1, .bag2 {
-        flex-direction: column;
-        text-align: center;
-    }
+  .bag1,
+  .bag2 {
+    flex-direction: column;
+    text-align: center;
+  }
 
-    .dalam2 {
-        flex-direction: column;
-    }
+  .dalam2 {
+    flex-direction: column;
+  }
 
-    .card {
-        width: 100%;
-        margin-bottom: 20px;
-    }
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 /* Media Query untuk perangkat dengan lebar maksimal 480px (ponsel) */
 @media (max-width: 480px) {
-    h1 {
-        font-size: 1.5em;
-    }
+  h1 {
+    font-size: 1.5em;
+  }
 
-    .button {
-        width: 100%;
-        padding: 10px;
-    }
+  .button {
+    width: 100%;
+    padding: 10px;
+  }
 }
 
 @media (min-width: 769px) {
@@ -588,4 +588,3 @@ body {
     display: none;
   }
 }
-
