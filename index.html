@@ -13,10 +13,10 @@
   <body>
     <!-- container -->
     <div id="Home" class="container">
-      <div class="nav">
-        <div class="logo" data-aos="fade-right" data-aos-duration="1200">
+      <!-- <div class="nav"> -->
+        <!-- <div class="logo" data-aos="fade-right" data-aos-duration="1200"> -->
           <!-- <img src="img/logobetul.png" alt="Logo" /> -->
-        </div>
+        <!-- </div> -->
         <!-- <button class="toggle-btn" onclick="toggleMenu()">Menu</button> -->
         <div
           class="navbar"
@@ -25,7 +25,8 @@
           data-aos-delay="400"
           data-aos-offset="0"
         >
-          <ul>
+          <span class="menu-icon" id="menu-icon">&#9776</span>
+          <ul class="nav-list" id="nav-list">
             <li><a href="#Home">Home</a></li>
             <li><a href="#page2">How To Order</a></li>
             <li><a href="#favorite">Favorite</a></li>
@@ -398,10 +399,14 @@
 
     <script>
       AOS.init();
-      function toggleMenu() {
-        const navbar = document.querySelector(".navbar");
-        navbar.classList.toggle("active");
-      }
+      document.getElementById('menu-icon').addEventListener('click', function () {
+        const navList = document.getElementById('nav-list');
+        if (navList.style.display === 'block') {
+          navList.style.display = 'none';
+        } else {
+          navList.style.display = 'block';
+        }
+  });
     </script>
   </body>
 </html>
