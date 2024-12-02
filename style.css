@@ -417,7 +417,8 @@ body {
 
 @media (max-width: 480px) {
   .container3 .kanan {
-    width: 95%;
+    text-align: center;
+    width: 400px;
     margin: auto;
   }
 
@@ -549,7 +550,7 @@ body {
 
   .kontainer1 {
     flex-direction: column-reverse;
-    width: 100%;
+    width: 100;
   }
 
   .kontainer1 .bag1 {
