@@ -546,10 +546,36 @@ body {
   .navbar.active {
     display: block;
   }
+
+  .kontainer1 {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .kontainer1 .bag1 {
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .kontainer1 .bag2 img {
+    width: 357px;
+    height: auto;
+  }
+
+  .dalam2 {
+    flex-direction: column;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
+
 /* Media Query untuk perangkat dengan lebar maksimal 768px (tablet dan ponsel) */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
     align-items: center;
@@ -569,7 +595,7 @@ body {
     width: 100%;
     margin-bottom: 20px;
   }
-}
+} */
 
 /* Media Query untuk perangkat dengan lebar maksimal 480px (ponsel) */
 @media (max-width: 480px) {
