@@ -71,4 +71,9 @@
 .icons img:hover {
   transform: translateY(-5px);
 }
+@media screen and (max-width: 330px){
+  /* #logo{
+    font-size: ;
+  } */
+}
 /* naavbar end */
