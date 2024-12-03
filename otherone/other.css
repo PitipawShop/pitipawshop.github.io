@@ -37,7 +37,25 @@
 }
 
 .nav-link:hover {
-  background-color: rgb(62, 0, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(220, 52, 80);
   color: pink;
   border-radius: 5px;
+  transition-delay: .3s ease;
 }
+
+/* dropdown category */
+.dropdown-item {
+  margin-left: 10px;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(81, 0, 0);
+  margin-right: 15px;
+  transition: 0.5s ease;
+}
+.dropdown-item dropdown-toggle{
+    display: flex;
+    justify-content: center;
+}
+/* dropdown category */
