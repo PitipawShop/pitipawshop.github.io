@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.all-content{
+    background: rgb(96, 0, 32);
+}
+
+.navbar{
+    background-color: rgb(235, 53, 83);
+    padding-left: 50px;
+    font-weight: bold;
+}
