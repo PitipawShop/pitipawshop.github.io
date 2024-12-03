@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Faculty Glyphic", sans-serif;
 }
 
 .all-content{
@@ -12,4 +13,19 @@
     background-color: rgb(235, 53, 83);
     padding-left: 50px;
     font-weight: bold;
+}
+
+#logo{
+    font-size: 23px;
+    color: white;
+}
+#logo img{
+    margin-bottom: 15px;
+}
+
+.navbar-nav{
+    margin-left: 10px;
+}
+.nav-link{
+    
 }
