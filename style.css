@@ -6,7 +6,7 @@
 }
 
 .all-content {
-  background: rgb(96, 0, 32);
+  background: rgb(233, 197, 208);
 }
 
 .navbar {
@@ -77,3 +77,17 @@
   } */
 }
 /* naavbar end */
+/* home section */
+.home{
+  width: 100%;
+  height: 88.5vh;
+  display: flex;
+  background-image: linear-gradient(rgba(0,0,0,0.3)rgba(0,0,0,0.3),url(./img/2backg.png));
+  background-size: cover;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 0;
+}
+/* home section */
