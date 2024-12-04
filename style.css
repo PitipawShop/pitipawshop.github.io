@@ -107,7 +107,7 @@
 .content h2 {
   font-size: 60px;
   color: white;
-  text-shadow: 1px 1px 1px rgb(139, 0, 174);
+  text-shadow: 1px 1px 1px rgb(0, 174, 142);
   font-weight: bold;
 }
 .changecontent::after {
@@ -141,7 +141,7 @@
 .content .btn {
   width: 110px;
   height: 38px;
-  background-color: #573818;
+  background-color: #571827;
   color: white;
 }
 @media screen and (max-width: 800px) {
@@ -308,7 +308,7 @@
   font-size: 15px;
   background: transparent;
   letter-spacing: 3px;
-  border: 2px solid #573818;
+  border: 2px solid #571827;
   border-radius: 5px;
   float: right;
   font-weight: bold;
