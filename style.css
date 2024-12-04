@@ -144,4 +144,27 @@
   background-color: #573818;
   color: white;
 }
-/* home section */
+@media screen and (max-width: 800px) {
+  .content h3 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .home {
+    height: 120vh;
+  }
+}
+@media screen and (max-width: 560px) {
+  .home {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 330px) {
+  .content h2 {
+    font-size: 30px;
+  }
+  .content h3 {
+    font-size: 30px;
+  }
+}
+/* home section end */
