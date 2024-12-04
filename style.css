@@ -320,3 +320,32 @@
   color: white;
 }
 /* product cards end */
+
+/* gallary */
+#gallary {
+  margin-top: 50px;
+}
+#gallary h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 50px;
+  color: rgba(232, 98, 120);
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid rgba(232, 98, 120);
+}
+#gallary .card {
+  box-shadow: 3px 3px 3px black;
+  cursor: pointer;
+}
+#gallary .overlay {
+  opacity: 0;
+  width: 100%;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+#gallary .card:hover .overlay {
+  opacity: 5;
+  margin-top: 20%;
+  transition: 0.5s ease;
+}
+/* gallary */
