@@ -10,7 +10,7 @@
 
 /* navbar */
 #navbar {
-  background-color: rgb(232, 98, 120);
+  background-color: #e86278;
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
@@ -28,7 +28,7 @@
 .nav-link {
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   margin-left: 15px;
   transition: 0.5s ease;
 }
@@ -73,6 +73,7 @@
   }
 }
 /* naavbar end */
+
 /* home section */
 .home {
   width: 100%;
@@ -112,7 +113,7 @@
 }
 .changecontent::after {
   content: " ";
-  color: rgb(255, 144, 196);
+  color: rgb(182, 19, 89);
   animation: changetext 10s infinite linear;
   font-weight: bold;
 }
@@ -136,12 +137,12 @@
 .content p {
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .content .btn {
   width: 110px;
   height: 38px;
-  background-color: #571827;
+  background-color: #573818;
   color: white;
 }
 @media screen and (max-width: 800px) {
@@ -189,7 +190,7 @@
   height: 60vh;
   display: flex;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(./image/banner2.png);
+    url(./img/backg.png);
   background-size: cover;
   align-items: center;
   justify-content: center;
@@ -209,23 +210,23 @@
   margin-top: 60px;
 }
 .banner .content h3 {
-  color: rgba(rgb(147, 12, 82));
+  color: rgb(182, 19, 89);
   font-weight: bold;
 }
 .banner .content h2 {
   font-size: 50px;
-  color: rgba(rgb(147, 12, 82));
+  color: rgb(182, 19, 89);
   font-weight: bold;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .banner .content p {
-  color: rgba(rgb(147, 12, 82));
+  color: rgb(182, 19, 89);
 }
 #btnorder button {
   width: 150px;
   height: 32px;
   letter-spacing: 5px;
-  background-color: rgba(rgb(254, 133, 133));
+  background-color: rgb(182, 19, 89);
   color: white;
   border: none;
   border-radius: 5px;
@@ -242,18 +243,17 @@
   }
 }
 /* banner end */
-
 /* product cards */
 #product-cards h1 {
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgb(232, 98, 120);
-  text-shadow: 1px 1px 1px black;
-  border-bottom: 2px solid rgba(232, 98, 120);
+  color: rgb(182, 19, 89);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(182, 19, 89);
 }
 #product-cards .card {
-  background-color: rgba(232, 98, 120);
+  background-color: rgb(182, 19, 89);
   box-shadow: 0 0 3px black;
   border-radius: 5px;
   cursor: pointer;
@@ -272,7 +272,7 @@
   transition: 0.5s ease;
 }
 .overlay i img {
-  background-color: #2e001a;
+  background-color: #ffe4f1;
   height: 30px;
   width: 30px;
   font-size: 20px;
@@ -288,18 +288,18 @@
 }
 #product-cards h3 {
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 .star .checked {
   color: yellow;
 }
 #product-cards p {
-  color: #2e001a;
+  color: #ffe4f1;
   font-weight: bold;
 }
 #product-cards h6 {
   font-size: 20px;
-  color: #2e001a;
+  color: #ffe4f1;
   font-weight: bold;
 }
 #product-cards h6 span button {
@@ -308,7 +308,7 @@
   font-size: 15px;
   background: transparent;
   letter-spacing: 3px;
-  border: 2px solid #571827;
+  border: 2px solid #573818;
   border-radius: 5px;
   float: right;
   font-weight: bold;
@@ -316,9 +316,10 @@
   cursor: pointer;
 }
 #product-cards h6 span button:hover {
-  background-color: #2e001a;
+  background-color: #ffe4f1;
   color: white;
 }
+
 /* product cards end */
 
 /* gallary */
@@ -329,9 +330,9 @@
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgba(232, 98, 120);
-  text-shadow: 1px 1px 1px black;
-  border-bottom: 2px solid rgba(232, 98, 120);
+  color: rgb(182, 19, 89);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(182, 19, 89);
 }
 #gallary .card {
   box-shadow: 3px 3px 3px black;
@@ -341,7 +342,7 @@
   opacity: 0;
   width: 100%;
   color: white;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
 #gallary .card:hover .overlay {
   opacity: 5;
@@ -358,24 +359,24 @@
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgba(232, 98, 120);
-  text-shadow: 1px 1px 1px black;
-  border-bottom: 2px solid rgba(232, 98, 120);
+  color: rgb(182, 19, 89);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(182, 19, 89);
 }
 #about .card {
-  background-color: rgba(232, 98, 120);
+  background-color: rgb(182, 19, 89);
   box-shadow: 0px 0px 5px black;
 }
 #about p {
-  color: #e86278;
-  text-shadow: 1px 1px 1px black;
+  color: rgb(182, 19, 89);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
   font-weight: bold;
 }
 #bt button {
   width: 150px;
   height: 32px;
   letter-spacing: 3px;
-  background-color: rgba(232, 98, 120);
+  background-color: rgb(182, 19, 89);
   color: white;
   border: none;
   cursor: pointer;
@@ -400,18 +401,18 @@
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgba(232, 98, 120);
-  text-shadow: 1px 1px 1px black;
-  border-bottom: 2px solid rgba(232, 98, 120);
+  color: rgb(182, 19, 89);
+  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  border-bottom: 2px solid rgb(182, 19, 89);
 }
 #contact input {
-  background-color: rgba(232, 98, 120);
+  background-color: rgb(182, 19, 89);
 }
 #contact input::placeholder {
   color: white;
 }
 #contact textarea {
-  background-color: rgba(232, 98, 120);
+  background-color: rgb(182, 19, 89);
 }
 #contact textarea::placeholder {
   color: white;
@@ -431,14 +432,14 @@
   cursor: pointer;
 }
 #messagebtn button:hover {
-  background-color: rgba(232, 98, 120);
+  background-color: rgb(182, 19, 89);
 }
 /* contact */
 
 /* footer */
 #footer {
   width: 100%;
-  background-color: #e86278;
+  background-color: #573818;
   box-shadow: 0px 0px 5px black;
   margin-top: 100px;
 }
@@ -451,7 +452,7 @@
 }
 .icons i {
   background-color: white;
-  color: #571843;
+  color: #573818;
   border-radius: 50px;
   padding: 6px;
   font-size: 30px;
@@ -459,7 +460,7 @@
   cursor: pointer;
 }
 .icons i:hover {
-  background-color: rgb(161, 14, 97);
+  background-color: rgb(182, 19, 89);
   color: white;
 }
 .copyright {
@@ -475,7 +476,7 @@ html {
 }
 .arrow {
   position: fixed;
-  background-color: rgba(232, 98, 120);
+  background-color: rgb(182, 19, 89);
   border-radius: 50px;
   height: 50px;
   bottom: 40px;
