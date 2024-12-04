@@ -470,3 +470,6 @@
   color: white;
 }
 /* footer */
+html {
+  scroll-behavior: smooth;
+}
