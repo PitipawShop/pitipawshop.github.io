@@ -470,6 +470,10 @@
   color: white;
 }
 /* footer */
+#footer{
+  width: 100%;
+  background-color: rgba(232, 98, 120);
+}
 html {
   scroll-behavior: smooth;
 }
