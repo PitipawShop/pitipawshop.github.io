@@ -272,7 +272,7 @@
   transition: 0.5s ease;
 }
 .overlay i img {
-  background-color: #2e1700;
+  background-color: #2e001a;
   height: 30px;
   width: 30px;
   font-size: 20px;
@@ -294,12 +294,12 @@
   color: yellow;
 }
 #product-cards p {
-  color: #2e1700;
+  color: #2e001a;
   font-weight: bold;
 }
 #product-cards h6 {
   font-size: 20px;
-  color: #2e1700;
+  color: #2e001a;
   font-weight: bold;
 }
 #product-cards h6 span button {
@@ -316,7 +316,7 @@
   cursor: pointer;
 }
 #product-cards h6 span button:hover {
-  background-color: #2e1700;
+  background-color: #2e001a;
   color: white;
 }
 /* product cards end */
