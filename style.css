@@ -133,4 +133,15 @@
     content: "Custom Sesukamu!";
   }
 }
+.content p {
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px black;
+}
+.content .btn {
+  width: 110px;
+  height: 38px;
+  background-color: #573818;
+  color: white;
+}
 /* home section */
