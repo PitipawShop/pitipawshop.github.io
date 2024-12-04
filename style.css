@@ -28,20 +28,15 @@
 .nav-link {
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px black;
   margin-left: 15px;
   transition: 0.5s ease;
 }
 .nav-link:hover {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: rgb(220, 52, 80);
   color: white;
   border-radius: 5px;
-  transition-delay: 0.3s ease;
 }
-
 /* dropdown category */
 .dropdown-item {
   margin-left: 10px;
@@ -92,7 +87,6 @@
 }
 .home .img img {
   width: 100%;
-  box-shadow: 0px 4px 20px rgba(105, 39, 39, 0.5); /* Menambahkan shadow */
 }
 .home .content {
   flex: 1 1 400px;
@@ -102,17 +96,17 @@
   color: white;
   font-size: 60px;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px black;
 }
 .content h2 {
   font-size: 60px;
   color: white;
-  text-shadow: 1px 1px 1px rgb(0, 174, 142);
+  text-shadow: 1px 1px 1px black;
   font-weight: bold;
 }
 .changecontent::after {
   content: " ";
-  color: rgb(182, 19, 89);
+  color: #e86278;
   animation: changetext 10s infinite linear;
   font-weight: bold;
 }
@@ -136,7 +130,7 @@
 .content p {
   color: white;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px black;
 }
 .content .btn {
   width: 110px;
@@ -209,23 +203,23 @@
   margin-top: 60px;
 }
 .banner .content h3 {
-  color: rgb(182, 19, 89);
+  color: #e86278;
   font-weight: bold;
 }
 .banner .content h2 {
   font-size: 50px;
-  color: rgb(182, 19, 89);
+  color: #e86278;
   font-weight: bold;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px black;
 }
 .banner .content p {
-  color: rgb(182, 19, 89);
+  color: #e86278;
 }
 #btnorder button {
   width: 150px;
   height: 32px;
   letter-spacing: 5px;
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
   color: white;
   border: none;
   border-radius: 5px;
@@ -247,12 +241,12 @@
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgb(182, 19, 89);
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  border-bottom: 2px solid rgb(182, 19, 89);
+  color: #e86278;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid #e86278;
 }
 #product-cards .card {
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
   box-shadow: 0 0 3px black;
   border-radius: 5px;
   cursor: pointer;
@@ -271,7 +265,7 @@
   transition: 0.5s ease;
 }
 .overlay i img {
-  background-color: #f184bb;
+  background-color: #652839;
   height: 30px;
   width: 30px;
   font-size: 20px;
@@ -287,7 +281,7 @@
 }
 #product-cards h3 {
   color: white;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px black;
 }
 .star .checked {
   color: yellow;
@@ -329,9 +323,9 @@
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgb(182, 19, 89);
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  border-bottom: 2px solid rgb(182, 19, 89);
+  color: #e86278;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid #e86278;
 }
 #gallary .card {
   box-shadow: 3px 3px 3px black;
@@ -341,7 +335,7 @@
   opacity: 0;
   width: 100%;
   color: white;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px black;
 }
 #gallary .card:hover .overlay {
   opacity: 5;
@@ -358,24 +352,24 @@
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgb(182, 19, 89);
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  border-bottom: 2px solid rgb(182, 19, 89);
+  color: #e86278;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid #e86278;
 }
 #about .card {
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
   box-shadow: 0px 0px 5px black;
 }
 #about p {
-  color: rgb(182, 19, 89);
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  color: #e86278;
+  text-shadow: 1px 1px 1px black;
   font-weight: bold;
 }
 #bt button {
   width: 150px;
   height: 32px;
   letter-spacing: 3px;
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
   color: white;
   border: none;
   cursor: pointer;
@@ -400,18 +394,18 @@
   text-align: center;
   font-weight: bold;
   margin-top: 50px;
-  color: rgb(182, 19, 89);
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
-  border-bottom: 2px solid rgb(182, 19, 89);
+  color: #e86278;
+  text-shadow: 1px 1px 1px black;
+  border-bottom: 2px solid #e86278;
 }
 #contact input {
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
 }
 #contact input::placeholder {
   color: white;
 }
 #contact textarea {
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
 }
 #contact textarea::placeholder {
   color: white;
@@ -431,16 +425,17 @@
   cursor: pointer;
 }
 #messagebtn button:hover {
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
 }
 /* contact */
 
 /* footer */
 #footer {
   width: 100%;
-  background-color: #573818;
+  background-color: #e86278;
   box-shadow: 0px 0px 5px black;
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
 #footer h1 {
   color: white;
@@ -459,7 +454,7 @@
   cursor: pointer;
 }
 .icons i:hover {
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
   color: white;
 }
 .copyright {
@@ -475,7 +470,7 @@ html {
 }
 .arrow {
   position: fixed;
-  background-color: rgb(182, 19, 89);
+  background-color: #e86278;
   border-radius: 50px;
   height: 50px;
   bottom: 40px;
