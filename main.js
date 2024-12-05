@@ -21,9 +21,9 @@ function checkout() {
     return;
   }
 
-  const message = `Saya ingin membeli:\n${cart
-    .map((item) => item.name)
-    .join("\n")}`;
+  const message = `Saya ingin membeli:
+  Variant :
+  Total :\n${cart.map((item) => item.name).join("\n")}`;
   const whatsappUrl = `https://wa.me/6283137760847?text=${encodeURIComponent(
     message
   )}`;
