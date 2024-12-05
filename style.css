@@ -329,6 +329,7 @@
   font-weight: bold;
 }
 #product-cards h6 span button {
+  color: #750013;
   width: 100px;
   height: 26px;
   font-size: 15px;
@@ -342,8 +343,8 @@
   cursor: pointer;
 }
 #product-cards h6 span button:hover {
-  background-color: #ffe4f1;
-  color: white;
+  background-color: antiquewhite;
+  color: rgb(255, 44, 79);
 }
 
 /* product cards end */
@@ -452,12 +453,14 @@
   letter-spacing: 3px;
   font-weight: bold;
   background: transparent;
-  border: 2px solid white;
-  color: white;
+  border: 2px solid #e86278;
+  color: #e86278;
   transition: 0.5s;
   cursor: pointer;
 }
 #messagebtn button:hover {
+  color: white;
+  border: 2px solid white;
   background-color: #e86278;
 }
 /* contact */
