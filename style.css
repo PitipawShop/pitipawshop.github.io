@@ -422,7 +422,9 @@
 }
 #about p {
   color: #e86278;
-  text-shadow: 1px 1px 1px black;
+  word-spacing: 5px;
+  letter-spacing: 1.5px;
+  text-shadow: 1px 1px 1px rgb(255, 211, 233);
   font-weight: bold;
 }
 #bt button {
@@ -455,7 +457,7 @@
   font-weight: bold;
   margin-top: 50px;
   color: #e86278;
-  text-shadow: 1px 1px 1px black;
+  text-shadow: 1px 1px 1px rgb(255, 211, 233);
   border-bottom: 2px solid #e86278;
 }
 #contact input {
