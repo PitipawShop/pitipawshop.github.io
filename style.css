@@ -494,41 +494,191 @@
 /* contact */
 
 /* footer */
-#footer {
+
+/* after */
+/* footer */
+
+.footer {
+  display: flex;
+  margin-top: 40px;
+  justify-content: space-around;
+  background-color: #161616;
   width: 100%;
-  background-color: #e86278;
-  box-shadow: 0px 0px 5px black;
-  margin-top: 50px;
-  padding-bottom: 50px;
+  height: auto;
 }
-#footer h1 {
+
+.footer .teks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 100px;
+  margin: 30px;
+}
+
+.footer .bag1 h1 {
+  font-size: 25px;
   color: white;
-  padding-top: 30px;
+  text-shadow: 1px 1px 4px black;
 }
-#footer p {
+
+.judul img {
+  width: 150px;
+}
+
+.footer .bag1 ul {
+  list-style: none;
+}
+
+.footer .bag1 ul li {
+  margin-top: 10px;
+}
+
+.footer .bag1 ul li a {
+  text-decoration: none;
   color: white;
+  font-weight: 500;
+  font-size: 14px;
 }
-.icons i {
-  background-color: white;
-  color: #e86278;
-  border-radius: 50px;
-  padding: 6px;
-  font-size: 30px;
-  transition: 0.5s;
-  cursor: pointer;
+
+.footer .bag2 {
+  width: 300px;
 }
-.icons i:hover {
-  background-color: #e86278;
+
+.footer .bag2 h1 {
+  font-size: 35px;
   color: white;
+  text-shadow: 1px 1px 4px black;
 }
-.copyright {
+
+.footer .bag2 p {
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+
+.footer .bag3 {
+  width: 300px;
+}
+
+.footer .bag3 .logo5 {
+  margin-top: 10px;
+}
+
+.footer .bag3 .logo5 img {
+  width: 30px;
+}
+
+.bag3 {
+  text-align: center; /* Mengatur teks dan konten di dalam .bag3 menjadi rata tengah */
+}
+
+.logo5 {
+  margin: 20px 0; /* Menambahkan jarak vertikal di atas dan bawah div .logo5 */
+}
+
+.logo5 .ig a {
+  display: inline-block; /* Membuat tautan menjadi inline-block agar bisa diatur */
+}
+
+.logo5 .ig img {
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Memastikan tinggi gambar otomatis menyesuaikan proporsi */
+  margin: 0 auto; /* Menjaga gambar tetap di tengah jika ada ruang ekstra */
+}
+
+.footer .bag3 h1 {
+  font-size: 35px;
+  color: white;
+  text-shadow: 1px 1px 4px black;
+}
+
+.footer .bag3 p {
+  font-size: 14px;
+  color: white;
+  margin-top: 10px;
+}
+
+.wave svg {
+  margin-top: -14rem;
+}
+
+@media (max-width: 480px) {
+  .footer1 {
+    display: none;
+  }
+  #footer2 {
+    width: 100%;
+    background-color: #e86278;
+    box-shadow: 0px 0px 5px black;
+    margin-top: 50px;
+    padding-bottom: 50px;
+  }
+  #footer2 h1 {
+    color: white;
+    padding-top: 30px;
+  }
+  #footer2 p {
+    color: white;
+  }
+  .icons i {
+    background-color: white;
+    color: #e86278;
+    border-radius: 50px;
+    padding: 6px;
+    font-size: 30px;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+  .icons i:hover {
+    background-color: #e86278;
+    color: white;
+  }
+  /* before */
+  .container3 .kanan {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+  }
+
+  .wave svg {
+    margin-top: 0;
+  }
+
+  .text {
+    text-align: justify;
+  }
+
+  .dalam2 hr {
+    display: none;
+  }
+
+  .kontainer1 {
+    flex-direction: column-reverse;
+    width: 100%;
+  }
+
+  .kontainer1 .bag1 {
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  .kontainer1 .bag2 img {
+    width: 357px;
+    height: auto;
+  }
+}
+/* after */
+
+/* .copyright {
   color: white;
   margin-top: 20px;
 }
 .credite {
   color: white;
-}
+} */
 /* footer */
+
 html {
   scroll-behavior: smooth;
 }
@@ -542,4 +692,9 @@ html {
   text-decoration: none;
   text-align: center;
   line-height: 50px;
+}
+@media (min-width: 767px) {
+  .footerke2 {
+    display: none;
+  }
 }
