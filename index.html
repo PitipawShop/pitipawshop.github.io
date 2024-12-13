@@ -61,6 +61,7 @@
       href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=shopping_cart" />
     <!-- icons links -->
 
     <!-- animation links -->
@@ -170,7 +171,11 @@
         </div>
         <div>
           <span>Keranjang: <span id="cart-count">0</span> item</span>
-          <button id="checkout-button">Checkout</button>
+          <button id="checkout-button">
+            <span class="material-symbols-outlined">
+shopping_cart
+</span>
+    </button>
         </div>
         
       </nav>
@@ -696,7 +701,9 @@
                   </div>
                   <p>Variant Black Pink</p>
                   <h6>
-                    300.20 <span><button>Add Cart</button></span>
+                    IDR 15K<span
+                      ><button class="add-cart">Add Cart</button></span
+                    >
                   </h6>
                 </div>
               </div>
@@ -944,7 +951,7 @@
       <!-- contact end -->
 
       <!-- footer -->
-       <div class="footerke2">
+      <div class="footerke2">
       <footer id="footer2" data-aos="fade-up" data-aos-duration="1500">
         <h1 class="text-center">Pitipaw</h1>
         <p class="text-center">Variantelit. Vitae, accusantium.</p>

@@ -17,13 +17,12 @@ function updateCartCount() {
 // Fungsi untuk checkout
 function checkout() {
   if (cart.length === 0) {
-    alert("Keranjang Anda kosong! Silakan tambahkan item sebelum checkout.");
+    alert("Isi keranjang terlebih dahulu sebelum melakukan checkout!");
     return;
   }
 
   const message = `Saya ingin membeli:
-  Variant :
-  Total :\n${cart.map((item) => item.name).join("\n")}`;
+  Variant :\n${cart.map((item) => item.name).join("\n")}`;
   const whatsappUrl = `https://wa.me/6283137760847?text=${encodeURIComponent(
     message
   )}`;
@@ -33,7 +32,7 @@ function checkout() {
 // Event listener untuk tombol "Add Cart"
 document.querySelectorAll(".add-cart").forEach((button) => {
   button.addEventListener("click", function () {
-    const itemName = this.closest(".card-body").querySelector("h3").innerText; // Ambil nama item
+    const itemName = this.closest(".card-body").querySelector("p").innerText; // Ambil nama item
     addToCart({ name: itemName });
   });
 });
