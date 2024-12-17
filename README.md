@@ -1,2 +1,2 @@
 # pitipaw
-salwa
+syalwa
